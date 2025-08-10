@@ -1,0 +1,186 @@
+2025-03-24 16:44:48 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-24 17:00:16 [ERROR]: ❌ Falha na sincronização:
+2025-03-24 17:01:45 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-24 17:02:09 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-24 17:02:16 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-24 17:02:27 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-24 17:02:30 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-24 17:05:05 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-24 17:05:11 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-24 17:06:21 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-27 13:32:54 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-03-27 13:33:59 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'properties'
+2025-03-27 13:34:44 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'properties'
+2025-03-27 13:34:51 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'tenants'
+2025-05-08 14:32:30 [ERROR]: Falha na autenticação:
+2025-05-08 14:32:34 [ERROR]: Falha na autenticação:
+2025-05-08 22:20:05 [ERROR]: ❌ Falha ao sincronizar BlogPost: Failed to open the referenced table 'blog_categories'
+2025-05-10 10:34:06 [ERROR]: Falha na autenticação:
+2025-05-10 12:28:08 [ERROR]: Falha na autenticação:
+2025-05-10 13:47:08 [ERROR]: Falha na autenticação:
+2025-05-10 15:33:42 [ERROR]: Falha na autenticação:
+2025-05-10 15:33:42 [ERROR]: Falha na autenticação:
+2025-05-10 16:35:07 [ERROR]: Falha na autenticação:
+2025-05-11 13:18:07 [ERROR]: Falha na autenticação:
+2025-05-11 13:18:23 [ERROR]: Falha na autenticação:
+2025-05-11 13:18:24 [ERROR]: Falha na autenticação:
+2025-05-11 13:18:26 [ERROR]: Falha na autenticação:
+2025-05-11 13:18:28 [ERROR]: Falha na autenticação:
+2025-05-11 13:18:29 [ERROR]: Falha na autenticação:
+2025-05-11 13:18:30 [ERROR]: Falha na autenticação:
+2025-05-11 14:39:58 [ERROR]: Falha na autenticação:
+2025-05-11 14:56:05 [ERROR]: Falha na autenticação:
+2025-05-11 14:56:05 [ERROR]: Falha na autenticação:
+2025-05-11 21:19:46 [ERROR]: Falha na autenticação:
+2025-05-11 22:33:20 [ERROR]: Falha na autenticação:
+2025-05-11 22:33:41 [ERROR]: Falha na autenticação:
+2025-05-11 22:33:45 [ERROR]: Falha na autenticação:
+2025-05-11 22:33:48 [ERROR]: Falha na autenticação:
+2025-05-11 22:33:52 [ERROR]: Falha na autenticação:
+2025-05-11 22:34:00 [ERROR]: Falha na autenticação:
+2025-05-11 22:34:04 [ERROR]: Falha na autenticação:
+2025-05-11 22:34:06 [ERROR]: Falha na autenticação:
+2025-05-11 22:34:09 [ERROR]: Falha na autenticação:
+2025-05-11 22:34:12 [ERROR]: Falha na autenticação:
+2025-05-11 22:34:44 [ERROR]: Falha na autenticação:
+2025-05-11 22:34:45 [ERROR]: Falha na autenticação:
+2025-05-11 22:34:48 [ERROR]: Falha na autenticação:
+2025-05-11 22:34:56 [ERROR]: Falha na autenticação:
+2025-05-11 22:35:00 [ERROR]: Falha na autenticação:
+2025-05-11 22:35:03 [ERROR]: Falha na autenticação:
+2025-05-11 22:36:39 [ERROR]: Falha na autenticação:
+2025-05-11 22:36:43 [ERROR]: Falha na autenticação:
+2025-05-11 22:36:45 [ERROR]: Falha na autenticação:
+2025-05-11 22:36:47 [ERROR]: Falha na autenticação:
+2025-05-11 22:36:54 [ERROR]: Falha na autenticação:
+2025-05-11 22:36:58 [ERROR]: Falha na autenticação:
+2025-05-11 22:37:02 [ERROR]: Falha na autenticação:
+2025-05-11 22:37:03 [ERROR]: Falha na autenticação:
+2025-05-11 22:37:04 [ERROR]: Falha na autenticação:
+2025-05-11 22:37:22 [ERROR]: Falha na autenticação:
+2025-05-11 22:40:46 [ERROR]: Falha na autenticação:
+2025-05-11 22:40:47 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:02 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:06 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:08 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:19 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:25 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:28 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:30 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:33 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:40 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:42 [ERROR]: Falha na autenticação:
+2025-05-11 22:41:59 [ERROR]: Falha na autenticação:
+2025-05-11 22:42:19 [ERROR]: Falha na autenticação:
+2025-05-11 22:42:23 [ERROR]: Falha na autenticação:
+2025-05-11 22:42:26 [ERROR]: Falha na autenticação:
+2025-05-11 22:42:35 [ERROR]: Falha na autenticação:
+2025-05-11 22:42:38 [ERROR]: Falha na autenticação:
+2025-05-11 22:43:10 [ERROR]: Falha na autenticação:
+2025-05-11 22:43:55 [ERROR]: Falha na autenticação:
+2025-05-11 22:44:49 [ERROR]: Falha na autenticação:
+2025-05-11 22:44:59 [ERROR]: Falha na autenticação:
+2025-05-11 22:45:01 [ERROR]: Falha na autenticação:
+2025-05-11 22:45:10 [ERROR]: Falha na autenticação:
+2025-05-11 22:45:15 [ERROR]: Falha na autenticação:
+2025-05-11 22:45:17 [ERROR]: Falha na autenticação:
+2025-05-11 22:45:26 [ERROR]: Falha na autenticação:
+2025-05-11 22:45:29 [ERROR]: Falha na autenticação:
+2025-05-11 22:45:32 [ERROR]: Falha na autenticação:
+2025-05-11 22:45:43 [ERROR]: Falha na autenticação:
+2025-05-11 22:46:01 [ERROR]: Falha na autenticação:
+2025-05-11 22:46:12 [ERROR]: Falha na autenticação:
+2025-05-11 22:46:29 [ERROR]: Falha na autenticação:
+2025-05-12 18:57:23 [ERROR]: Falha na autenticação:
+2025-05-14 15:26:10 [ERROR]: Falha na autenticação:
+2025-05-14 16:28:05 [ERROR]: Falha na autenticação:
+2025-05-14 18:54:31 [ERROR]: Falha na autenticação:
+2025-05-14 19:56:52 [ERROR]: Falha na autenticação:
+2025-05-15 16:29:12 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 16:30:42 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 16:31:12 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 16:32:50 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 16:34:04 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 20:50:15 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 21:20:54 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 21:21:29 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 21:21:49 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 21:25:04 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 21:25:36 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 21:25:52 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 21:40:37 [ERROR]: ❌ Falha ao sincronizar Manager: Too many keys specified; max 64 keys allowed
+2025-05-15 21:42:04 [ERROR]: ❌ Falha ao sincronizar Payment: Cannot drop table 'payments' referenced by a foreign key constraint 'payment_history_ibfk_1' on table 'payment_history'.
+2025-05-15 21:42:21 [ERROR]: ❌ Falha ao sincronizar Payment: Cannot drop table 'payments' referenced by a foreign key constraint 'payment_history_ibfk_1' on table 'payment_history'.
+2025-05-15 21:44:54 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-05-15 21:45:58 [ERROR]: ❌ Falha ao sincronizar PaymentHistory: Failed to open the referenced table 'payments'
+2025-05-15 21:46:21 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-05-15 21:47:41 [ERROR]: ❌ Falha ao sincronizar PaymentHistory: Failed to open the referenced table 'payments'
+2025-05-15 21:47:53 [ERROR]: ❌ Falha ao sincronizar Payment: Failed to open the referenced table 'payment_history'
+2025-05-15 21:51:34 [ERROR]: Falha na autenticação:
+2025-05-16 09:03:02 [ERROR]: Falha na autenticação:
+2025-05-16 09:03:02 [ERROR]: Falha na autenticação:
+2025-05-16 10:03:26 [ERROR]: Falha na autenticação:
+2025-05-16 12:29:56 [ERROR]: Falha na autenticação:
+2025-05-16 12:29:56 [ERROR]: Falha na autenticação:
+2025-05-16 18:59:17 [ERROR]: Falha na autenticação:
+2025-05-18 20:53:06 [ERROR]: Falha na autenticação:
+2025-05-19 11:12:43 [ERROR]: Falha na autenticação:
+2025-05-19 12:21:25 [ERROR]: Falha na autenticação:
+2025-06-25 15:04:49 [ERROR]: Falha na autenticação:
+2025-06-26 21:34:48 [ERROR]: Falha na autenticação:
+2025-06-26 22:35:38 [ERROR]: Falha na autenticação:
+2025-06-26 22:35:38 [ERROR]: Falha na autenticação:
+2025-06-27 17:05:59 [ERROR]: Falha na autenticação:
+2025-06-27 18:09:19 [ERROR]: Falha na autenticação:
+2025-06-27 18:13:50 [ERROR]: Falha na autenticação:
+2025-06-27 18:14:20 [ERROR]: Falha na autenticação:
+2025-06-27 19:47:21 [ERROR]: Falha na autenticação:
+2025-06-27 20:58:13 [ERROR]: Falha na autenticação:
+2025-06-27 21:59:58 [ERROR]: Falha na autenticação:
+2025-06-27 21:59:58 [ERROR]: Falha na autenticação:
+2025-06-27 21:59:58 [ERROR]: Falha na autenticação:
+2025-06-28 12:42:00 [ERROR]: Falha na autenticação:
+2025-06-28 12:42:00 [ERROR]: Falha na autenticação:
+2025-06-28 13:52:15 [ERROR]: Falha na autenticação:
+2025-06-28 15:31:48 [ERROR]: Falha na autenticação:
+2025-06-28 21:41:14 [ERROR]: Falha na autenticação:
+2025-06-28 21:41:39 [ERROR]: Falha na autenticação:
+2025-06-29 09:24:47 [ERROR]: Falha na autenticação:
+2025-06-29 12:57:15 [ERROR]: Falha na autenticação:
+2025-06-29 15:51:24 [ERROR]: Falha na autenticação:
+2025-06-29 15:51:24 [ERROR]: Falha na autenticação:
+2025-06-29 15:51:24 [ERROR]: Falha na autenticação:
+2025-07-11 10:57:36 [ERROR]: Falha na autenticação:
+2025-07-11 14:05:36 [ERROR]: Falha na autenticação:
+2025-07-11 15:08:38 [ERROR]: Falha na autenticação:
+2025-07-12 14:58:19 [ERROR]: Falha na autenticação:
+2025-07-12 14:58:20 [ERROR]: Falha na autenticação:
+2025-07-12 14:58:20 [ERROR]: Falha na autenticação:
+2025-07-12 15:59:37 [ERROR]: Falha na autenticação:
+2025-07-12 15:59:37 [ERROR]: Falha na autenticação:
+2025-07-12 15:59:37 [ERROR]: Falha na autenticação:
+2025-07-13 09:45:16 [ERROR]: Falha na autenticação:
+2025-07-13 09:45:16 [ERROR]: Falha na autenticação:
+2025-07-13 09:45:16 [ERROR]: Falha na autenticação:
+2025-07-13 10:47:56 [ERROR]: Falha na autenticação:
+2025-07-13 10:47:56 [ERROR]: Falha na autenticação:
+2025-07-13 10:47:56 [ERROR]: Falha na autenticação:
+2025-07-13 12:40:28 [ERROR]: Falha na autenticação:
+2025-07-13 12:40:29 [ERROR]: Falha na autenticação:
+2025-07-13 12:40:29 [ERROR]: Falha na autenticação:
+2025-07-13 13:42:01 [ERROR]: Falha na autenticação:
+2025-07-13 13:42:01 [ERROR]: Falha na autenticação:
+2025-07-13 13:42:01 [ERROR]: Falha na autenticação:
+2025-07-14 19:07:09 [ERROR]: Falha na autenticação:
+2025-07-14 19:07:09 [ERROR]: Falha na autenticação:
+2025-07-14 19:07:09 [ERROR]: Falha na autenticação:
+2025-07-14 20:17:12 [ERROR]: Falha na autenticação:
+2025-07-14 20:17:12 [ERROR]: Falha na autenticação:
+2025-07-14 20:17:12 [ERROR]: Falha na autenticação:
+2025-07-14 21:08:00 [ERROR]: Erro no agendamento de notificações: Unknown column 'Payment.lastNotificationSent' in 'where clause'
+2025-07-14 21:10:00 [ERROR]: Erro no agendamento de notificações: Unknown column 'Payment.lastNotificationSent' in 'where clause'
+2025-07-14 21:12:00 [ERROR]: Erro no agendamento de notificações: Unknown column 'Payment.lastNotificationSent' in 'where clause'
+2025-07-14 21:36:00 [ERROR]: Erro no agendamento de notificações: Unknown column 'Payment.lastNotificationSent' in 'field list'
+2025-07-14 21:38:01 [ERROR]: Erro no agendamento de notificações: Template de notificação não encontrado: reminder_pending
+2025-07-14 21:40:00 [ERROR]: Erro no agendamento de notificações: Template de notificação não encontrado: reminder_pending
+2025-07-14 21:42:00 [ERROR]: Erro no agendamento de notificações: Template de notificação não encontrado: reminder_pending

@@ -1,0 +1,2640 @@
+2025-05-14 13:37:03 [ERROR]: uncaughtException: Cannot find module './admin/settings.route'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\admin.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module './admin/settings.route'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\admin.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:14:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-14 13:37:11 [ERROR]: uncaughtException: Cannot find module './admin/settings.route'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\admin.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module './admin/settings.route'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\admin.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:14:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-14 13:37:16 [ERROR]: uncaughtException: Cannot find module './admin/settings.route'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\admin.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module './admin/settings.route'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\admin.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:14:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-14 15:13:17 [ERROR]: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (B:\mavie\rentsystem\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as put] (B:\mavie\rentsystem\backend\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\fines.routes.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+2025-05-14 15:13:37 [ERROR]: uncaughtException: up is not defined
+ReferenceError: up is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\fines.routes.js:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:11:21)
+2025-05-14 15:15:52 [ERROR]: uncaughtException: Cannot find module './fines.routes'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module './fines.routes'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:11:21)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-14 16:10:22 [ERROR]: uncaughtException: Identifier 'updateManagerValidator' has already been declared
+B:\mavie\rentsystem\backend\src\validations\managerSchemas.js:49
+const updateManagerValidator = [
+      ^
+
+SyntaxError: Identifier 'updateManagerValidator' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin\manager.routes.js:9:5)
+2025-05-14 16:12:48 [ERROR]: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (B:\mavie\rentsystem\backend\node_modules\express\lib\router\index.js:462:11)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:22:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+2025-05-14 16:13:15 [ERROR]: uncaughtException: Identifier 'router' has already been declared
+B:\mavie\rentsystem\backend\src\routes\index.js:19
+router.use('/auth', authRoutes);
+^
+
+SyntaxError: Identifier 'router' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\server.js:22:19)
+2025-05-14 16:13:22 [ERROR]: uncaughtException: Missing initializer in const declaration
+B:\mavie\rentsystem\backend\src\routes\index.js:16
+const manager
+      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\server.js:22:19)
+2025-05-14 16:13:39 [ERROR]: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (B:\mavie\rentsystem\backend\node_modules\express\lib\router\index.js:462:11)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:23:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+2025-05-14 16:13:44 [ERROR]: uncaughtException: Cannot find module 'bcryptjs'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\manager.controller.js
+- B:\mavie\rentsystem\backend\src\routes\manager.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module 'bcryptjs'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\manager.controller.js
+- B:\mavie\rentsystem\backend\src\routes\manager.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\manager.controller.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-14 16:13:58 [ERROR]: uncaughtException: Cannot find module 'bcryptjs'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\manager.controller.js
+- B:\mavie\rentsystem\backend\src\routes\manager.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module 'bcryptjs'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\manager.controller.js
+- B:\mavie\rentsystem\backend\src\routes\manager.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\manager.controller.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-14 16:14:03 [ERROR]: uncaughtException: Cannot find module 'bcryptjs'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\manager.controller.js
+- B:\mavie\rentsystem\backend\src\routes\manager.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module 'bcryptjs'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\manager.controller.js
+- B:\mavie\rentsystem\backend\src\routes\manager.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\manager.controller.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-14 16:14:10 [ERROR]: uncaughtException: Cannot find module 'bcryptjs'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\manager.controller.js
+- B:\mavie\rentsystem\backend\src\routes\manager.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module 'bcryptjs'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\manager.controller.js
+- B:\mavie\rentsystem\backend\src\routes\manager.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\manager.controller.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-15 15:00:30 [ERROR]: uncaughtException: Identifier 'router' has already been declared
+B:\mavie\rentsystem\backend\src\routes\index.js:20
+router.use('/auth', authRoutes);
+^
+
+SyntaxError: Identifier 'router' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\server.js:22:19)
+2025-05-15 15:00:32 [ERROR]: uncaughtException: Missing initializer in const declaration
+B:\mavie\rentsystem\backend\src\routes\index.js:17
+const contact
+      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\server.js:22:19)
+2025-05-15 15:01:02 [ERROR]: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (B:\mavie\rentsystem\backend\node_modules\express\lib\router\index.js:462:11)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:25:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+2025-05-15 16:21:04 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 16:21:21 [ERROR]: uncaughtException: Unexpected token ';'
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:165
+};
+ ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:4:24)
+2025-05-15 16:21:28 [ERROR]: uncaughtException: Unexpected token ';'
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:165
+};
+ ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:4:24)
+2025-05-15 16:21:38 [ERROR]: uncaughtException: Unexpected token ';'
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:165
+    };
+     ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:4:24)
+2025-05-15 16:21:46 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 16:22:08 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 16:22:18 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 16:22:55 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 16:23:14 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 16:23:32 [ERROR]: uncaughtException: Unexpected token ';'
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:194
+};
+ ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:4:24)
+2025-05-15 16:23:40 [ERROR]: uncaughtException: Unexpected token ';'
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:194
+};
+ ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:4:24)
+2025-05-15 16:23:47 [ERROR]: uncaughtException: Unexpected token ';'
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:194
+};
+ ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:4:24)
+2025-05-15 16:23:50 [ERROR]: uncaughtException: Unexpected token ';'
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:194
+};
+ ^
+
+SyntaxError: Unexpected token ';'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:4:24)
+2025-05-15 16:23:57 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 16:24:03 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 16:24:14 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 16:25:20 [ERROR]: uncaughtException: Unexpected identifier 'status'
+B:\mavie\rentsystem\backend\src\models\Manager.js:35
+    status: {
+    ^^^^^^
+
+SyntaxError: Unexpected identifier 'status'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-15 16:25:30 [ERROR]: uncaughtException: Unexpected identifier 'resetPasswordExpires'
+B:\mavie\rentsystem\backend\src\models\Manager.js:35
+    resetPasswordExpires
+    ^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'resetPasswordExpires'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-15 16:25:40 [ERROR]: uncaughtException: Unexpected identifier 'resetPasswordExpires'
+B:\mavie\rentsystem\backend\src\models\Manager.js:37
+    resetPasswordExpires
+    ^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'resetPasswordExpires'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-15 16:25:46 [ERROR]: uncaughtException: Unexpected token 'try'
+B:\mavie\rentsystem\backend\src\models\Manager.js:36
+      allowNull: try
+                 ^^^
+
+SyntaxError: Unexpected token 'try'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-15 16:25:51 [ERROR]: uncaughtException: Unexpected identifier 'resetPasswordExpires'
+B:\mavie\rentsystem\backend\src\models\Manager.js:38
+    resetPasswordExpires
+    ^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'resetPasswordExpires'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-15 16:26:03 [ERROR]: uncaughtException: Unexpected identifier 'status'
+B:\mavie\rentsystem\backend\src\models\Manager.js:41
+    status: {
+    ^^^^^^
+
+SyntaxError: Unexpected identifier 'status'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-15 16:26:18 [ERROR]: uncaughtException: resetPasswordValidator is not defined
+ReferenceError: resetPasswordValidator is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:5:20)
+2025-05-15 21:49:48 [ERROR]: uncaughtException: check is not defined
+ReferenceError: check is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\validations\userSchemas.js:55:32)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:8:5)
+2025-05-15 22:03:08 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\middleware\tokens.js:10
+    });
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:6:27)
+2025-05-15 22:57:02 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\controllers\notification.controller.js:44
+            });
+            ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\notification.routes.js:4:32)
+2025-05-16 10:03:07 [ERROR]: uncaughtException: missing ) after argument list
+B:\mavie\rentsystem\backend\src\controllers\tenant.controller.js:454
+            console.error('Erro ao remover inquilino:', error insta);
+                                                        ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\tenant.routes.js:5:26)
+2025-05-16 10:04:33 [ERROR]: uncaughtException: Unexpected identifier 'onDelete'
+B:\mavie\rentsystem\backend\src\models\Tenant.js:105
+        onDelete: 'CASCADE'
+        ^^^^^^^^
+
+SyntaxError: Unexpected identifier 'onDelete'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-16 10:15:55 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\controllers\tenant.controller.js:230
+                console.error('Erro na notificação:', notificationError instanceof Error ? );
+                                                                                           ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\tenant.routes.js:5:26)
+2025-05-16 10:21:25 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\controllers\tenant.controller.js:206
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\tenant.routes.js:5:26)
+2025-05-16 10:21:29 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\controllers\tenant.controller.js:207
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\tenant.routes.js:5:26)
+2025-05-17 07:13:54 [ERROR]: uncaughtException: type is not defined
+ReferenceError: type is not defined
+    at module.exports (B:\mavie\rentsystem\backend\src\models\AboutContent.js:8:9)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:17:4)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+2025-05-17 07:13:57 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\models\AboutContent.js:9
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-17 07:14:17 [ERROR]: uncaughtException: allowNu is not defined
+ReferenceError: allowNu is not defined
+    at module.exports (B:\mavie\rentsystem\backend\src\models\AboutContent.js:9:9)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:17:4)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+2025-05-17 07:14:24 [ERROR]: uncaughtException: allowNull is not defined
+ReferenceError: allowNull is not defined
+    at module.exports (B:\mavie\rentsystem\backend\src\models\AboutContent.js:9:9)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:17:4)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+2025-05-17 07:14:51 [ERROR]: uncaughtException: Unexpected token '.'
+B:\mavie\rentsystem\backend\src\models\AboutContent.js:12
+        DataTypes.STRING},
+                 ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-17 07:15:33 [ERROR]: uncaughtException: Unexpected token '.'
+B:\mavie\rentsystem\backend\src\models\AboutContent.js:17
+    historyText1: {DataTypes.TEXT},
+                            ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-17 07:16:09 [ERROR]: uncaughtException: Unexpected token '.'
+B:\mavie\rentsystem\backend\src\models\AboutContent.js:34
+        DataTypes.STRING
+                 ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-17 07:21:49 [ERROR]: uncaughtException: SystemIncident.belongsToMany called with something that's not a subclass of Sequelize.Model
+Error: SystemIncident.belongsToMany called with something that's not a subclass of Sequelize.Model
+    at SystemIncident.belongsToMany (B:\mavie\rentsystem\backend\node_modules\sequelize\lib\associations\mixin.js:33:13)
+    at SystemIncident.associate (B:\mavie\rentsystem\backend\src\models\SystemStatus.js:135:20)
+    at B:\mavie\rentsystem\backend\src\models\index.js:44:23
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:42:21)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-05-17 07:22:11 [ERROR]: uncaughtException: SystemIncident.belongsToMany called with something that's not a subclass of Sequelize.Model
+Error: SystemIncident.belongsToMany called with something that's not a subclass of Sequelize.Model
+    at SystemIncident.belongsToMany (B:\mavie\rentsystem\backend\node_modules\sequelize\lib\associations\mixin.js:33:13)
+    at SystemIncident.associate (B:\mavie\rentsystem\backend\src\models\SystemStatus.js:94:20)
+    at B:\mavie\rentsystem\backend\src\models\index.js:44:23
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:42:21)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-05-17 07:23:48 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\models\SystemIncident.js:8
+      defaultValue: (),
+                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-17 07:24:01 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\models\SystemComponent.js:8
+      defaultValue: (),
+                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-17 07:24:27 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\models\SystemStatus.js:8
+      defaultValue: (),
+                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-17 07:28:28 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\models\ContactInfo.js:8
+      defaultValue: (),
+                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-17 07:28:50 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\models\ContactMessage.js:8
+      defaultValue: (),
+                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-17 07:43:58 [ERROR]: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (B:\mavie\rentsystem\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (B:\mavie\rentsystem\backend\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+2025-05-17 07:44:17 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 07:44:30 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 07:45:08 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 07:45:20 [ERROR]: uncaughtException: Missing initializer in destructuring declaration
+B:\mavie\rentsystem\backend\src\controllers\contact.controller.js:4
+const {  }
+      ^^^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:3:27)
+2025-05-17 07:45:30 [ERROR]: uncaughtException: The argument 'id' must be a non-empty string. Received ''
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''
+    at Module.require (node:internal/modules/cjs/loader:1330:11)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\contact.controller.js:4:25)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+2025-05-17 07:45:38 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 07:45:58 [ERROR]: uncaughtException: Unexpected end of input
+B:\mavie\rentsystem\backend\src\controllers\contact.controller.js:99
+}
+ 
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:3:27)
+2025-05-17 07:46:35 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 07:46:44 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 07:47:08 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 07:47:47 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 07:47:56 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 09:50:31 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\contact.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\contact.routes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 10:48:22 [ERROR]: uncaughtException: Cannot find module '../controllers/aboutController'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\about.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../controllers/aboutController'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\about.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\about.routes.js:3:25)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 10:51:22 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\system.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\system.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\system.routes.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 10:51:54 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\status.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\status.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\status.routes.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-17 10:52:15 [ERROR]: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (B:\mavie\rentsystem\backend\node_modules\express\lib\router\index.js:462:11)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\about.routes.js:6:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+2025-05-17 10:52:24 [ERROR]: uncaughtException: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\status.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../middlewares/authMiddleware'
+Require stack:
+- B:\mavie\rentsystem\backend\src\routes\status.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\status.routes.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-05-18 08:06:20 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\controllers\status.controller.js:49
+      console.log("ERRO: ", error instanceof )
+                                             ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\status.routes.js:3:26)
+2025-05-18 08:06:26 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\controllers\status.controller.js:49
+      console.log("ERRO: ", error instanceof )
+                                             ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\status.routes.js:3:26)
+2025-05-18 08:26:58 [ERROR]: uncaughtException: Identifier 'DataTypes' has already been declared
+B:\mavie\rentsystem\backend\src\models\IncidentComponents.js:4
+const { DataTypes } = require('sequelize');
+        ^
+
+SyntaxError: Identifier 'DataTypes' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-05-18 19:21:52 [ERROR]: uncaughtException: Unexpected identifier 'attributes'
+B:\mavie\rentsystem\backend\src\controllers\admin\manager.controller.js:15
+        attributes: { exclude: ['password'] },
+        ^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'attributes'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin\manager.routes.js:4:28)
+2025-05-18 19:22:04 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\controllers\admin\manager.controller.js:14
+        where: {role: },
+                      ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin\manager.routes.js:4:28)
+2025-05-18 19:24:19 [ERROR]: uncaughtException: Identifier 'module' has already been declared
+B:\mavie\rentsystem\backend\src\controllers\admin\manager.controller.js:8
+module.exports = {
+^
+
+SyntaxError: Identifier 'module' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin\manager.routes.js:4:28)
+2025-05-18 19:24:24 [ERROR]: uncaughtException: The argument 'id' must be a non-empty string. Received ''
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''
+    at Module.require (node:internal/modules/cjs/loader:1330:11)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\admin\manager.controller.js:6:14)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+2025-05-18 19:24:47 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\controllers\admin\manager.controller.js:17
+        },
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin\manager.routes.js:4:28)
+2025-05-18 19:24:51 [ERROR]: uncaughtException: Unexpected token ']'
+B:\mavie\rentsystem\backend\src\controllers\admin\manager.controller.js:16
+          role: { [] }
+                   ^
+
+SyntaxError: Unexpected token ']'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin\manager.routes.js:4:28)
+2025-05-18 19:24:53 [ERROR]: uncaughtException: Unexpected token ']'
+B:\mavie\rentsystem\backend\src\controllers\admin\manager.controller.js:16
+          role: { [Op.] }
+                      ^
+
+SyntaxError: Unexpected token ']'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin\manager.routes.js:4:28)
+2025-05-18 19:25:00 [ERROR]: uncaughtException: Unexpected token '['
+B:\mavie\rentsystem\backend\src\controllers\admin\manager.controller.js:16
+          role: { [Op.ne] }
+                        ^
+
+SyntaxError: Unexpected token '['
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin\manager.routes.js:4:28)
+2025-06-27 17:32:34 [ERROR]: uncaughtException: transaction is not defined
+ReferenceError: transaction is not defined
+    at createTenant (B:\mavie\rentsystem\backend\src\controllers\tenant.controller.js:237:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-28 14:07:30 [ERROR]: uncaughtException: Unexpected identifier 'password'
+B:\mavie\rentsystem\backend\src\models\Manager.js:32
+    password: {
+    ^^^^^^^^
+
+SyntaxError: Unexpected identifier 'password'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-06-28 14:07:40 [ERROR]: uncaughtException: Unexpected identifier 'password'
+B:\mavie\rentsystem\backend\src\models\Manager.js:33
+    password: {
+    ^^^^^^^^
+
+SyntaxError: Unexpected identifier 'password'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-06-28 16:02:32 [ERROR]: uncaughtException: Unexpected token 'const'
+B:\mavie\rentsystem\backend\src\middleware\upload.js:26
+const upload = multer({
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:6:16)
+2025-06-28 16:03:01 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:28:26 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:28:49 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:29:38 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:29:43 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:30:24 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:31:02 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:31:14 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:31:22 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:31:33 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:32:33 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:36:41 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:37:07 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:37:53 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 20:38:00 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 21:03:48 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 21:03:54 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 21:04:25 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 21:04:41 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 21:05:01 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 21:05:09 [ERROR]: uncaughtException: upload.single is not a function
+TypeError: upload.single is not a function
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:37:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 21:05:36 [ERROR]: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\admin.routes.js:38:5)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 21:06:19 [ERROR]: uncaughtException: Unexpected token ','
+B:\mavie\rentsystem\backend\src\routes\admin.routes.js:38
+    ,
+    ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:15:21)
+2025-06-28 21:06:57 [ERROR]: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\manager.routes.js:19:3)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\index.js:16:23)
+2025-06-28 21:38:46 [ERROR]: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (B:\mavie\rentsystem\backend\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as put] (B:\mavie\rentsystem\backend\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\manager.routes.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+2025-06-29 11:01:17 [ERROR]: uncaughtException: Missing initializer in const declaration
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:8
+const send
+      ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:9:24)
+2025-06-29 11:01:20 [ERROR]: uncaughtException: Missing initializer in const declaration
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:8
+const sendR
+      ^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:9:24)
+2025-06-29 11:01:27 [ERROR]: uncaughtException: Cannot find module '../'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\auth.controller.js
+- B:\mavie\rentsystem\backend\src\routes\auth.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../'
+Require stack:
+- B:\mavie\rentsystem\backend\src\controllers\auth.controller.js
+- B:\mavie\rentsystem\backend\src\routes\auth.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:8:24)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-29 13:31:12 [ERROR]: uncaughtException: Unexpected identifier 'emailContent'
+B:\mavie\rentsystem\backend\src\services\auth.service.js:11
+  const emailContent = {
+        ^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'emailContent'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:8:28)
+2025-06-29 13:42:56 [ERROR]: uncaughtException: Missing initializer in destructuring declaration
+B:\mavie\rentsystem\backend\src\services\auth.service.js:3
+const {}
+      ^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:8:28)
+2025-06-29 13:43:00 [ERROR]: uncaughtException: Cannot find module '../s'
+Require stack:
+- B:\mavie\rentsystem\backend\src\services\auth.service.js
+- B:\mavie\rentsystem\backend\src\controllers\auth.controller.js
+- B:\mavie\rentsystem\backend\src\routes\auth.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../s'
+Require stack:
+- B:\mavie\rentsystem\backend\src\services\auth.service.js
+- B:\mavie\rentsystem\backend\src\controllers\auth.controller.js
+- B:\mavie\rentsystem\backend\src\routes\auth.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\services\auth.service.js:3:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-29 14:03:07 [ERROR]: uncaughtException: Missing initializer in destructuring declaration
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:10
+const {  }
+      ^^^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:9:24)
+2025-06-29 14:03:09 [ERROR]: uncaughtException: Missing initializer in destructuring declaration
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:10
+const {  }
+      ^^^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:9:24)
+2025-06-29 14:30:41 [ERROR]: uncaughtException: Unexpected identifier 'message'
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:206
+                message: 'Senha atualizada com sucesso' 
+                ^^^^^^^
+
+SyntaxError: Unexpected identifier 'message'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:9:24)
+2025-06-29 14:30:43 [ERROR]: uncaughtException: Unexpected identifier 'message'
+B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:206
+                message: 'Senha atualizada com sucesso' 
+                ^^^^^^^
+
+SyntaxError: Unexpected identifier 'message'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\auth.routes.js:9:24)
+2025-06-30 10:19:21 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\services\UnifiedPaymentNotificationService.js:20
+            }]
+            ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\jobs\scheduler.js:2:43)
+2025-06-30 10:26:34 [ERROR]: uncaughtException: type is not defined
+ReferenceError: type is not defined
+    at module.exports (B:\mavie\rentsystem\backend\src\models\Payment.js:52:7)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:17:4)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+2025-06-30 10:26:40 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\models\Payment.js:53
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-06-30 10:27:19 [ERROR]: uncaughtException: defa is not defined
+ReferenceError: defa is not defined
+    at module.exports (B:\mavie\rentsystem\backend\src\models\Payment.js:54:7)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:17:4)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+2025-06-30 10:27:34 [ERROR]: uncaughtException: defa is not defined
+ReferenceError: defa is not defined
+    at module.exports (B:\mavie\rentsystem\backend\src\models\Payment.js:54:7)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:17:4)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+2025-06-30 10:27:43 [ERROR]: uncaughtException: Unexpected token ':'
+B:\mavie\rentsystem\backend\src\models\Payment.js:54
+      allowNull: false
+               ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-06-30 19:04:33 [ERROR]: uncaughtException: Missing initializer in destructuring declaration
+B:\mavie\rentsystem\backend\src\hooks\paymentHooks.js:2
+const { Op }
+      ^^^^^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:26:22)
+2025-06-30 19:05:23 [ERROR]: uncaughtException: Missing initializer in destructuring declaration
+B:\mavie\rentsystem\backend\src\hooks\paymentHooks.js:1
+const {}
+      ^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:26:22)
+2025-06-30 19:05:28 [ERROR]: uncaughtException: Cannot find module '../'
+Require stack:
+- B:\mavie\rentsystem\backend\src\hooks\paymentHooks.js
+- B:\mavie\rentsystem\backend\src\models\index.js
+- B:\mavie\rentsystem\backend\src\controllers\auth.controller.js
+- B:\mavie\rentsystem\backend\src\routes\auth.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+Error: Cannot find module '../'
+Require stack:
+- B:\mavie\rentsystem\backend\src\hooks\paymentHooks.js
+- B:\mavie\rentsystem\backend\src\models\index.js
+- B:\mavie\rentsystem\backend\src\controllers\auth.controller.js
+- B:\mavie\rentsystem\backend\src\routes\auth.routes.js
+- B:\mavie\rentsystem\backend\src\routes\index.js
+- B:\mavie\rentsystem\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\hooks\paymentHooks.js:1:12)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-06 06:24:24 [ERROR]: uncaughtException: Unexpected identifier 'prop'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:197
+        prop
+        ^^^^
+
+SyntaxError: Unexpected identifier 'prop'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:24:34 [ERROR]: uncaughtException: Unexpected identifier 'property'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:197
+        property: payment.property
+        ^^^^^^^^
+
+SyntaxError: Unexpected identifier 'property'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:24:54 [ERROR]: uncaughtException: Unexpected identifier 'property'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:197
+        property: payment.property.
+        ^^^^^^^^
+
+SyntaxError: Unexpected identifier 'property'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:24:59 [ERROR]: uncaughtException: Unexpected identifier 'property'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:197
+        property: payment.property.address
+        ^^^^^^^^
+
+SyntaxError: Unexpected identifier 'property'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:26:24 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:199
+    }));
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:28:49 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:201
+    }));
+     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:29:02 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:202
+    }));
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:29:07 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:201
+    }));
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:34:21 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:194
+        totalAmount: parseFloat(payment.totalAmount || ),
+                                                       ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:34:52 [ERROR]: uncaughtException: Unexpected token ')'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:194
+        totalAmount: parseFloat(payment.totalAmount || parseFloat(payment.amount + )),
+                                                                                   ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:38:42 [ERROR]: uncaughtException: Unexpected identifier 'totalAmount'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:196
+        totalAmount: parseFloat(payment.totalAmount || parseFloat(payment.amount + payment.fineAmount)),
+        ^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'totalAmount'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:38:46 [ERROR]: uncaughtException: Unexpected identifier 'totalAmount'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:196
+        totalAmount: parseFloat(payment.totalAmount || parseFloat(payment.amount + payment.fineAmount)),
+        ^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'totalAmount'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:39:51 [ERROR]: uncaughtException: Unexpected identifier 'totalAmount'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:196
+        const totalAmount = payment.totalAmount 
+              ^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'totalAmount'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-06 06:40:00 [ERROR]: uncaughtException: Invalid shorthand property initializer
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:196
+        totalAmount = payment.totalAmount 
+
+SyntaxError: Invalid shorthand property initializer
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-07 16:21:49 [ERROR]: uncaughtException: missing ) after argument list
+B:\mavie\rentsystem\backend\src\hooks\paymentHooks.js:206
+        payment.totalAmount = parseFloat((payment.amount + fineAmount);
+                                                                     ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:26:22)
+2025-07-07 16:22:00 [ERROR]: uncaughtException: missing ) after argument list
+B:\mavie\rentsystem\backend\src\hooks\paymentHooks.js:206
+        payment.totalAmount = parseFloat((payment.amount + fineAmount).toFixed();
+                                                                               ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:26:22)
+2025-07-07 16:25:04 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\models\Payment.js:82
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-07-07 16:25:07 [ERROR]: uncaughtException: Unexpected token '}'
+B:\mavie\rentsystem\backend\src\models\Payment.js:82
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-07-07 16:25:10 [ERROR]: uncaughtException: Unexpected identifier 'method'
+B:\mavie\rentsystem\backend\src\models\Payment.js:83
+    method: {
+    ^^^^^^
+
+SyntaxError: Unexpected identifier 'method'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-07-07 16:25:18 [ERROR]: uncaughtException: Unexpected identifier 'method'
+B:\mavie\rentsystem\backend\src\models\Payment.js:83
+    method: {
+    ^^^^^^
+
+SyntaxError: Unexpected identifier 'method'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at B:\mavie\rentsystem\backend\src\models\index.js:18:19
+2025-07-07 16:31:27 [ERROR]: uncaughtException: Unexpected identifier 'afterCreatePayment'
+B:\mavie\rentsystem\backend\src\hooks\paymentHooks.js:341
+        afterCreatePayment,
+        ^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'afterCreatePayment'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:26:22)
+2025-07-07 16:33:25 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'proxies')
+TypeError: Cannot read properties of undefined (reading 'proxies')
+    at getProxiedHooks (B:\mavie\rentsystem\backend\node_modules\sequelize\lib\hooks.js:54:59)
+    at Payment.addHook (B:\mavie\rentsystem\backend\node_modules\sequelize\lib\hooks.js:105:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:37:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+2025-07-07 16:33:37 [ERROR]: uncaughtException: pay is not defined
+ReferenceError: pay is not defined
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:37:40)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\auth.controller.js:3:21)
+2025-07-07 16:34:06 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'proxies')
+TypeError: Cannot read properties of undefined (reading 'proxies')
+    at getProxiedHooks (B:\mavie\rentsystem\backend\node_modules\sequelize\lib\hooks.js:54:59)
+    at Payment.addHook (B:\mavie\rentsystem\backend\node_modules\sequelize\lib\hooks.js:105:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\models\index.js:38:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+2025-07-11 11:44:29 [ERROR]: uncaughtException: Unexpected identifier 'referenceMonth'
+B:\mavie\rentsystem\backend\src\controllers\dashboard.controller.js:194
+        referenceMonth: payment.dueDate.toLocaleString('default', { month: 'long' }),
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'referenceMonth'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\dashboard.routes.js:3:29)
+2025-07-11 12:59:05 [ERROR]: uncaughtException: transaction is not defined
+ReferenceError: transaction is not defined
+    at createTenant (B:\mavie\rentsystem\backend\src\controllers\tenant.controller.js:237:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-11 14:13:38 [ERROR]: uncaughtException: Unexpected token '.'
+B:\mavie\rentsystem\backend\src\controllers\tenant.controller.js:53
+                    console.lo
+                           ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\tenant.routes.js:5:26)
+2025-07-11 14:13:51 [ERROR]: uncaughtException: Unexpected token '.'
+B:\mavie\rentsystem\backend\src\controllers\tenant.controller.js:54
+                    logger.info()
+                          ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\tenant.routes.js:5:26)
+2025-07-13 11:23:24 [ERROR]: uncaughtException: connect ETIMEDOUT 74.125.193.108:465
+Error: connect ETIMEDOUT 74.125.193.108:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+2025-07-13 12:07:51 [ERROR]: uncaughtException: Unexpected token 'const'
+B:\mavie\rentsystem\backend\src\controllers\payment.controller.js:4
+const { sequelize } = require('../configs/db');
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\payment.routes.js:5:27)
+2025-07-13 12:07:59 [ERROR]: uncaughtException: Missing initializer in destructuring declaration
+B:\mavie\rentsystem\backend\src\controllers\payment.controller.js:3
+const {}
+      ^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\payment.routes.js:5:27)
+2025-07-13 12:15:37 [ERROR]: uncaughtException: Cannot access 'models' before initialization
+ReferenceError: Cannot access 'models' before initialization
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\controllers\payment.controller.js:3:65)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\payment.routes.js:5:27)
+2025-07-13 14:00:25 [ERROR]: uncaughtException: Missing initializer in destructuring declaration
+B:\mavie\rentsystem\backend\src\controllers\payment.controller.js:6
+const {}
+      ^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1512:18)
+    at Module._compile (node:internal/modules/cjs/loader:1534:20)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (B:\mavie\rentsystem\backend\src\routes\payment.routes.js:5:27)
