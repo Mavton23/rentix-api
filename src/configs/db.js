@@ -11,6 +11,12 @@ const sequelize = new Sequelize(
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
         dialect: 'postgres',
+        dialectOptions: {
+          ssl: {
+              require: true,
+              rejectUnauthorized: false
+          }
+        },
         logging: false,
         define: {
             timestamps: false,
@@ -18,13 +24,7 @@ const sequelize = new Sequelize(
     }
 );
 
-sequelize.authenticate()
-  .then(() => {
-    logger.info('Conexão com o MYSQL foi bem-sucedida!');
-  })
-  .catch((err) => {
-    logger.error('Erro ao conectar ao banco de dados:', err);
-  });
+sequelize.authenticate();
 
 module.exports = {
     Sequelize: Sequelize,
