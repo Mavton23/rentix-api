@@ -5,7 +5,7 @@ const Sequelize = db.Sequelize;
 const basename = path.basename(__filename);
 const models = {};
 
-// Primeiro carrega todos os modelos
+// Carrega todos os modelos
 fs.readdirSync(__dirname)
   .filter(file => {
     return (
@@ -19,7 +19,7 @@ fs.readdirSync(__dirname)
     models[model.name] = model;
   });
 
-// Depois carrega os hooks
+// Carrega os hooks
 const managerHooks = require('../hooks/managerHooks')(models);
 const tenantHooks = require('../hooks/tenantHooks')(models);
 const propertyHooks = require('../hooks/propertyHooks')(models);
@@ -31,7 +31,6 @@ models.Manager.addHook('afterCreate', managerHooks.afterCreateManager);
 models.Tenant.addHook('beforeDestroy', tenantHooks.beforeDestroyTenant);
 
 models.Property.addHook('afterCreate', propertyHooks.afterCreateProperty);
-// models.Property.addHook('afterUpdate', propertyHooks.afterUpdateProperty);
 models.Property.addHook('beforeDestroy', propertyHooks.beforeDestroy);
 
 models.Payment.addHook('beforeCreate', paymentHooks.beforeCreatePayment);

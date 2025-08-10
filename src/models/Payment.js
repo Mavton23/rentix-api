@@ -25,7 +25,10 @@ module.exports = (sequelize) => {
       allowNull: false,
       validate: {
         isDate: true,
-        isAfter: new Date().toISOString().split('T')[0] // Valida se é uma data futura
+        isAfter: {
+          args: [new Date().toISOString()],
+          msg: 'A data de vencimento deve ser futura'
+        }
       },
       comment: 'Data de vencimento do pagamento'
     },
@@ -43,9 +46,12 @@ module.exports = (sequelize) => {
       comment: 'Indica se o pagamento está atrasado'
     },
     status: {
-      type: DataTypes.ENUM('pendente', 'pago', 'atrasado', 'cancelado'),
+      type: DataTypes.STRING,
       defaultValue: 'pendente',
       allowNull: false,
+      validate: {
+        isIn: [['pendente', 'pago', 'atrasado', 'cancelado']]
+      },
       comment: 'Estado do pagamento'
     },
     statusChangedAt: {

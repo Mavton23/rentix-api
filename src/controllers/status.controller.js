@@ -38,7 +38,7 @@ module.exports = {
         name: c.name,
         status: c.status,
         description: c.description
-      })) || [], // Retorna array vazio se não houver componentes
+      })) || [],
       incidents: incidents?.map(i => ({
         id: i.incidentId,
         title: i.title,
@@ -46,8 +46,8 @@ module.exports = {
         impact: i.impact,
         startedAt: i.startedAt,
         updatedAt: i.updatedAt,
-        components: i.components?.map(c => c.name) || [] // Seguro contra components undefined
-      })) || [] // Retorna array vazio se não houver incidentes
+        components: i.components?.map(c => c.name) || []
+      })) || []
     });
   } catch (error) {
     console.error("ERRO: ", error instanceof Error ? error.message : error);
@@ -72,16 +72,6 @@ module.exports = {
     }
   },
 
-  // createComponent: async (req, res, next) => {
-  //   try {
-  //     const component = await SystemComponent.create(req.body);
-  //     res.status(201).json(component);
-  //   } catch (error) {
-  //     next(error);
-  //   }
-  // },
-
-  // Métodos para Componentes
   createComponent: async (req, res, next) => {
     try {
       const { name, status, description, order, isActive } = req.body;
@@ -350,7 +340,7 @@ module.exports = {
     }
   },
 
-  // Métodos adicionais para o frontend
+  // Métodos adicionais
   getAllComponents: async (req, res, next) => {
     try {
       const components = await SystemComponent.findAll({

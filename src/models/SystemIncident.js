@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4, validate } = require('uuid');
 
 module.exports = (sequelize) => {
   const SystemIncident = sequelize.define('SystemIncident', {
@@ -15,15 +15,21 @@ module.exports = (sequelize) => {
       comment: 'Título do incidente'
     },
     status: {
-      type: DataTypes.ENUM('investigating', 'identified', 'monitoring', 'resolved'),
+      type: DataTypes.STRING,
       defaultValue: 'investigating',
       allowNull: false,
+      validate: {
+        isIn: [['investigating', 'identified', 'monitoring', 'resolved']]
+      },
       comment: 'Status do incidente'
     },
     impact: {
-      type: DataTypes.ENUM('critical', 'major', 'minor', 'none'),
+      type: DataTypes.STRING,
       defaultValue: 'minor',
       allowNull: false,
+      validate: {
+        isIn: [['critical', 'major', 'minor', 'none']]
+      },
       comment: 'Impacto do incidente'
     },
     startedAt: {

@@ -47,7 +47,7 @@ module.exports = {
               raw: true,
             });
         
-            // Atividade recente (apenas para admin)
+            // Atividade recente
             const recentActivity = req.user?.role === 'admin' ? [
               {
                 action: 'Novo gestor cadastrado',
@@ -229,7 +229,7 @@ module.exports = {
           allowComments: allowComments === 'true',
           readTime: parseInt(readTime),
           slug,
-          coverImage: req.file?.path || post.coverImage, // Mantém a imagem existente se não for enviada nova
+          coverImage: req.file?.path || post.coverImage,
         });
 
         res.json(post);

@@ -55,8 +55,6 @@ module.exports = {
             });
         }
 
-        
-        // Inicia uma transação
         const transaction = await sequelize.transaction();
         try {
 
@@ -217,18 +215,16 @@ module.exports = {
 
                 // Envia e-mail de boas-vindas
                 if (email) {
-                    // await sendEmail({
-                    //     to: email,
-                    //     subject: `Bem-vindo à Plataforma ${appName}`,
-                    //     html: welcomeMessage,
-                    //     text: textContent
-                    // })
-                    console.log("EMAIL ENVIADO COM SUCESSO!")
+                    await sendEmail({
+                        to: email,
+                        subject: `Bem-vindo à Plataforma ${appName}`,
+                        html: welcomeMessage,
+                        text: textContent
+                    })
                 }
 
                 if (phone) {
-                    // await sendSMS(phone, `Bem-vindo(a), ${name} a plataforma ${appName}! Acesse seu e-mail para mais detalhes.`);
-                    console.log("MENSAGEM ENVIADA COM SUCESSO!")
+                    await sendSMS(phone, `Bem-vindo(a), ${name} a plataforma ${appName}! Acesse seu e-mail para mais detalhes.`);
                 }
 
                 await NotificationLog.create({
@@ -253,7 +249,6 @@ module.exports = {
 
         } catch (error) {
             console.log("ERROR CREATING A TENANT:", error instanceof Error ? error.message : error);
-            console.log("Validation Errors:", error.errors);
             await transaction.rollback();
 
             return res.status(500).json({
@@ -314,7 +309,7 @@ module.exports = {
             const { id } = req.params;
             const { status, ...updateData } = req.body;
 
-            // Busca o inquilino com a propriedade associada (se existir)
+            // Busca o inquilino com a propriedade associada
             const tenant = await Tenant.findOne({
                 where: { 
                     tenantId: id, 

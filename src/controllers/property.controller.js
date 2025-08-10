@@ -88,13 +88,12 @@ module.exports = {
         } catch (error) {
             console.error('Erro ao buscar propriedade:', error);
 
-            // Mensagem de erro detalhada
             const errorMessage = error instanceof Error ? error.message : 'Erro desconhecido';
 
             return res.status(500).json({
                 success: false,
                 message: 'Erro ao buscar propriedade. Tente novamente.',
-                error: errorMessage // Retorna o erro para depuração
+                error: errorMessage
             });
         }
     },
@@ -112,10 +111,8 @@ module.exports = {
         const managerId = req.user.managerId;
         let { address, property_type, bedrooms, bathrooms, rent_amount, description, tenantId } = req.body;
 
-        // Tratamento especial para o tenantId
         tenantId = (tenantId === 'none' || tenantId === '') ? null : tenantId;
 
-        // Inicia uma transação para garantir atomicidade
         const transaction = await sequelize.transaction();
 
         try {
@@ -218,13 +215,11 @@ module.exports = {
                 )
             }
 
-            // Commit da transação se tudo ocorrer bem
             await transaction.commit();
 
             return res.status(201).json(newProperty);
 
         } catch (error) {
-            // Rollback em caso de erro
             if (transaction) await transaction.rollback();
             
             console.error('Erro ao criar propriedade:', error);
@@ -250,13 +245,12 @@ module.exports = {
         const { id } = req.params;
         let { tenantId, ...updateData } = req.body;
 
-        // Tratamento especial para o tenantId
         tenantId = (tenantId === 'none' || tenantId === '') ? null : tenantId;
 
         const transaction = await sequelize.transaction();
 
         try {
-            // 1. Busca a propriedade (com lock para evitar concorrência)
+            // Busca a propriedade
             const property = await Property.findOne({
                 where: { 
                     propertyId: id, 
@@ -274,7 +268,7 @@ module.exports = {
                 });
             }
 
-            // 2. Verifica se o endereço já existe (se foi modificado)
+            // Verifica se o endereço já existe
             if (updateData.address && updateData.address !== property.address) {
                 const existingProperty = await Property.findOne({
                     where: { address: updateData.address, owner_id: managerId },
@@ -290,16 +284,14 @@ module.exports = {
                 }
             }
 
-            // 3. Atualiza os campos básicos (exceto tenantId)
+            // Atualiza os campos básicos
             await property.update(updateData, { transaction });
 
-            // 4. Lógica do hook (atualização do tenantId e status)
+            // Lógica do hook
             if (tenantId !== undefined) {
                 const previousTenantId = property.tenantId;
 
-                // Se o tenantId foi alterado
                 if (tenantId !== previousTenantId) {
-                    // Remove inquilino anterior (se existir)
                     if (previousTenantId) {
                         const previousTenant = await Tenant.findOne({
                             where: { tenantId: previousTenantId, managerId },
@@ -307,12 +299,11 @@ module.exports = {
                         });
 
                         if (previousTenant) {
-                            // Verifica se o inquilino não está em outra propriedade
                             const otherProperty = await Property.findOne({
                                 where: { 
                                     tenantId: previousTenantId,
                                     owner_id: managerId,
-                                    propertyId: { [Op.ne]: id } // Ignora a propriedade atual
+                                    propertyId: { [Op.ne]: id }
                                 },
                                 transaction
                             });
@@ -324,7 +315,7 @@ module.exports = {
                         }
                     }
 
-                    // Atualiza com o novo inquilino (se fornecido)
+                    // Atualiza com o novo inquilino
                     if (tenantId && tenantId !== 'none') {
                         const newTenant = await Tenant.findOne({
                             where: { tenantId, managerId },
@@ -374,7 +365,7 @@ module.exports = {
             return res.status(200).json({
                 success: true,
                 message: 'Propriedade atualizada com sucesso!',
-                property: await Property.findByPk(id) // Retorna os dados atualizados
+                property: await Property.findByPk(id)
             });
 
         } catch (error) {

@@ -12,10 +12,6 @@ module.exports = (sequelize) => {
         paymentId: {
             type: DataTypes.UUID,
             allowNull: false,
-            references: {
-                model: 'Payments',
-                key: 'paymentId'
-            },
             comment: 'Referência ao pagamento associado'
         },
         action: {

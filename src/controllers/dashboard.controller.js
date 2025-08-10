@@ -104,12 +104,12 @@ const getPropertyTypeDistribution = async (managerId) => {
 const getPaymentStatusDetails = async (managerId) => {
     return await Payment.findAll({
       attributes: [
-        'status',
+        ['paymentId', 'status'],
         [sequelize.fn('COUNT', sequelize.col('paymentId')), 'count'],
         [sequelize.fn('SUM', sequelize.col('amount')), 'totalAmount']
       ],
       where: { managerId },
-      group: ['status'],
+      group: ['paymentId'],
       include: [
         {
           model: Property,
@@ -127,7 +127,7 @@ const getRevenueHistory = async (managerId, months = 6) => {
     
     return await Payment.findAll({
       attributes: [
-        [sequelize.fn('DATE_FORMAT', 'month', sequelize.col('paymentDate')), 'month'],
+        [sequelize.literal(`to_char("paymentDate", 'YYYY-MM')`), 'month'],
         [sequelize.fn('SUM', sequelize.col('amount')), 'total']
       ],
       where: {
@@ -232,7 +232,7 @@ module.exports = {
             // Intervalo de datas
             const { startDate, endDate } = getDateRange(period);
         
-            // Executa todas as consultas em paralelo para melhor performance
+            // Executa todas as consultas em paralelo
             const [
                 generalMetrics,
                 occupancyData,
@@ -253,7 +253,7 @@ module.exports = {
                 getTenantsWithOverduePayments(managerId)
             ]);
         
-            // Formatação dos dados para o frontend
+            // Formatação dos dados
             const formattedData = {
                 ...generalMetrics,
                 ...occupancyData,

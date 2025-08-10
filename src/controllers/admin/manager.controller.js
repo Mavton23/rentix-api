@@ -1,4 +1,3 @@
-// controllers/admin/managers.controller.js
 const { Manager } = require('../../models');
 const bcrypt = require('bcrypt');
 const { validationResult } = require('express-validator');

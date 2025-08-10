@@ -225,7 +225,7 @@ module.exports = {
             }
 
             // Cria o pagamento manualmente
-            const dueDate = new Date(`${referenceMonth}-10T00:00:00Z`); // Dia 10 do mês
+            const dueDate = new Date(`${referenceMonth}-10T00:00:00Z`);
             const isLate = new Date() > dueDate;
 
             const newPayment = await Payment.create({

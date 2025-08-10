@@ -14,28 +14,6 @@ const transporter = nodemailer.createTransport({
 });
 
 module.exports = {
-//     sendMessage: async (req, res, next) => {
-//     try {
-//       const { name, email, subject, message } = req.body;
-      
-//       const newMessage = await ContactMessage.create({
-//         name,
-//         email,
-//         subject,
-//         message,
-//         ipAddress: req.ip
-//       });
-
-//       // Aqui você pode adicionar lógica para enviar e-mail de notificação
-
-//       res.status(201).json({
-//         success: true,
-//         message: 'Mensagem enviada com sucesso!'
-//       });
-//     } catch (error) {
-//       next(error);
-//     }
-//   },
     sendMail: async (req, res) => {
         const errors = validationResult(req);
 

@@ -50,8 +50,11 @@ module.exports = (sequelize) => {
       defaultValue: false,
     },
     status: {
-      type: DataTypes.ENUM('draft', 'published', 'archived'),
+      type: DataTypes.STRING,
       defaultValue: 'draft',
+      validate: {
+        isIn: [['draft', 'published', 'archived']]
+      }
     },
     seoTitle: {
       type: DataTypes.STRING,

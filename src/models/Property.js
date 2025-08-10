@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4, validate } = require('uuid');
 
 module.exports = (sequelize) => {
   const Property = sequelize.define('Property', {
@@ -15,14 +15,20 @@ module.exports = (sequelize) => {
       comment: 'Endereço completo da propriedade'
     },
     property_type: {
-      type: DataTypes.ENUM('casa', 'apartamento', 'comercial', 'terreno'),
+      type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        isIn: [['casa', 'apartamento', 'comercial', 'terreno']]
+      },
       comment: 'Tipo da propriedade'
     },
     status: {
-      type: DataTypes.ENUM('disponivel', 'alugado', 'manutencao', 'indisponivel'),
+      type: DataTypes.STRING,
       defaultValue: 'disponivel',
       allowNull: false,
+      validate: {
+        isIn: [['disponivel', 'alugado', 'manutencao', 'indisponivel']]
+      },
       comment: 'Status atual da propriedade'
     },
     bedrooms: {

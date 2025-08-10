@@ -10,7 +10,7 @@ module.exports = (sequelize) => {
       comment: 'Identificador único das configurações'
     },
     finePercentage: {
-      type: DataTypes.FLOAT,
+      type: DataTypes.DECIMAL(5,4),
       defaultValue: 0.03,
       validate: {
         min: 0,

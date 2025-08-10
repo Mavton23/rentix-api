@@ -12,7 +12,6 @@ module.exports = {
         // Cria configurações padrão se não existirem
         const defaultSettings = await FineSettings.create({
           managerId: req.params.managerId,
-          // Valores padrão definidos no modelo
         });
         return res.json(defaultSettings);
       }

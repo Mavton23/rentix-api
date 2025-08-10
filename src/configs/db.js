@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const { Sequelize } = require('sequelize');
+const logger = require('../utils/logger');
 
 const sequelize = new Sequelize(
     process.env.DB_NAME,
@@ -9,7 +10,7 @@ const sequelize = new Sequelize(
     {
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
-        dialect: 'mysql',
+        dialect: 'postgres',
         logging: false,
         define: {
             timestamps: false,
@@ -19,10 +20,10 @@ const sequelize = new Sequelize(
 
 sequelize.authenticate()
   .then(() => {
-    console.log('Conexão com o MYSQL foi bem-sucedida!');
+    logger.info('Conexão com o MYSQL foi bem-sucedida!');
   })
   .catch((err) => {
-    console.error('Erro ao conectar ao banco de dados:', err);
+    logger.error('Erro ao conectar ao banco de dados:', err);
   });
 
 module.exports = {

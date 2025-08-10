@@ -47,7 +47,6 @@ module.exports = {
 
       const manager = await Manager.findByPk(id);
       if (!manager) {
-        // Remove o arquivo se o gestor não for encontrado
         if (req.file) {
           fs.unlinkSync(req.file.path);
         }
@@ -57,11 +56,10 @@ module.exports = {
         });
       }
 
-      // Se houve upload de arquivo, atualiza o avatarUrl
       if (req.file) {
         updateData.avatarUrl = `/uploads/avatars/${req.file.filename}`;
         
-        // Remove a imagem antiga se existir
+        // Remove a imagem
         if (manager.avatarUrl) {
           const oldPath = path.join(__dirname, '../', manager.avatarUrl);
           if (fs.existsSync(oldPath)) {
@@ -112,7 +110,7 @@ module.exports = {
       const manager = await Manager.findByPk(id, { transaction });
       
       if (!manager) {
-        // Remove o arquivo se o gestor não existir
+        // Remove o arquivo
         if (req.file) fs.unlinkSync(req.file.path);
         await transaction.rollback();
         return res.status(404).json({
@@ -121,7 +119,7 @@ module.exports = {
         });
       }
 
-      // Remove a imagem antiga se existir
+      // Remove a imagem
       if (manager.avatarUrl) {
         const oldPath = path.join(__dirname, '../../', manager.avatarUrl);
         if (fs.existsSync(oldPath)) {
@@ -141,7 +139,7 @@ module.exports = {
         }
       });
     } catch (error) {
-      // Remove o arquivo em caso de erro
+      // Remove o arquivo
       if (req.file) fs.unlinkSync(req.file.path);
       await transaction.rollback();
       

@@ -31,7 +31,7 @@ module.exports = (sequelize) => {
       },
       propertyId: {
         type: DataTypes.INTEGER,
-        allowNull: true // Opcional: linkar a um imóvel específico
+        allowNull: true
       }
     }, {
         timestamps: true

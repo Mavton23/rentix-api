@@ -10,8 +10,11 @@ module.exports = (sequelize) => {
       comment: 'ID único da informação de contato'
     },
     type: {
-      type: DataTypes.ENUM('email', 'phone', 'address', 'hours'),
+      type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        isIn: [['email', 'phone', 'address', 'hours']]
+      },
       comment: 'Tipo de informação de contato'
     },
     title: {

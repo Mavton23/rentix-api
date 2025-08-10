@@ -53,8 +53,8 @@ module.exports = {
             await NotificationLog.create({
                 managerId,
                 tenantId: tenant.tenantId,
-                message, // Mensagem enviada
-                sentAt: new Date(), // Data e hora da notificação
+                message,
+                sentAt: new Date(),
             });
 
             // Retorna sucesso

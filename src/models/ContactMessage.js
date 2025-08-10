@@ -30,8 +30,11 @@ module.exports = (sequelize) => {
       comment: 'Conteúdo da mensagem'
     },
     status: {
-      type: DataTypes.ENUM('pending', 'read', 'replied', 'archived'),
+      type: DataTypes.STRING,
       defaultValue: 'pending',
+      validate: {
+        isIn: [['pending', 'read', 'replied', 'archived']]
+      },
       comment: 'Status da mensagem'
     },
     ipAddress: {

@@ -117,9 +117,6 @@ module.exports = {
                 return res.status(404).json({ error: 'Post não encontrado' });
             }
 
-            // Incrementa o contador de visualizações
-            // await post.increment('viewCount', { by: 1 });
-
             res.json(post);
         } catch (error) {
             console.error('Erro ao buscar post por slug:', error);

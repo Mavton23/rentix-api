@@ -27,7 +27,7 @@ module.exports = (sequelize) => {
         allowNull: true
     },
     values: {
-        type: DataTypes.JSON,
+        type: DataTypes.JSONB,
         allowNull: true
     },
     ctaTitle: {

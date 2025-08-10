@@ -17,7 +17,7 @@ const getDateRange = (period) => {
             break;
         case 'all':
             return { startDate: null, endDate: null };
-        default: // currentMonth (padrão)
+        default:
             startDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
             endDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
             break;
@@ -62,7 +62,7 @@ module.exports = {
                 ...(status && { status }),
             };
     
-            // Filtro por período (exceto quando for 'all')
+            // Filtro por período
             if (startDate && endDate) {
                 paymentWhere.dueDate = { 
                     [Op.between]: [startDate, endDate] 
@@ -85,7 +85,7 @@ module.exports = {
                 }
             ];
     
-            // Filtro por nome do inquilino (case-insensitive)
+            // Filtro por nome do inquilino
             if (tenantName) {
                 includeOptions[1].where = {
                     name: {
@@ -115,7 +115,7 @@ module.exports = {
                 limit: parsedLimit,
                 offset: (parsedPage - 1) * parsedLimit,
                 distinct: true,
-                subQuery: false // Importante para queries complexas
+                subQuery: false
             });
     
             // Formatação dos resultados

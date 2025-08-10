@@ -46,9 +46,12 @@ module.exports = (sequelize) => {
       comment: 'URL do avatar do gestor'
     },
     status: {
-      type: DataTypes.ENUM('ativo', 'inativo', 'suspenso'),
+      type: DataTypes.STRING,
       defaultValue: 'ativo',
       allowNull: false,
+      validate: {
+        isIn: [['ativo', 'inativo', 'suspenso']]
+      },
       comment: 'Status do gestor no sistema'
     },
     lastLogin: {
@@ -57,13 +60,16 @@ module.exports = (sequelize) => {
       comment: 'Data do último login'
     },
     role: {
-      type: DataTypes.ENUM('admin', 'manager', 'supervisor'),
+      type: DataTypes.STRING,
       defaultValue: 'manager',
       allowNull: false,
+      validate: {
+        isIn: [['admin', 'manager', 'supervisor']]
+      },
       comment: 'Nível de acesso do usuário'
     },
     permissions: {
-      type: DataTypes.JSON,
+      type: DataTypes.JSONB,
       defaultValue: {},
       comment: 'Permissões específicas (opcional para controle granular)'
     }

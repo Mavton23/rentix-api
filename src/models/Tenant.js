@@ -1,4 +1,4 @@
-const { v4: uuid4 } = require('uuid')
+const { v4: uuid4, validate } = require('uuid')
 const { DataTypes } = require('sequelize');
 
 module.exports = (sequelize) => {
@@ -37,15 +37,21 @@ module.exports = (sequelize) => {
         comment: 'Número de telefone do inquilino'
     },
     status: {
-        type: DataTypes.ENUM('ativo', 'inativo', 'expulso'),
+        type: DataTypes.STRING,
         defaultValue: 'inativo',
         allowNull: false,
+        validate: {
+            isIn: [['ativo', 'inativo', 'expulso']]
+        },
         comment: 'Status do inquilino (ex: Ativo, Inativo, Pendente)'
     },
     marital_status: {
-        type: DataTypes.ENUM('solteiro(a)', 'casado(a)', 'divorciado(a)', 'viúvo(a)'),
+        type: DataTypes.STRING,
         defaultValue: 'solteiro(a)',
         allowNull: false,
+        validate: {
+            isIn: [['solteiro(a)', 'casado(a)', 'divorciado(a)', 'viúvo(a)']]
+        },
         comment: 'Estado civil do inquilino (ex: Solteiro, Casado)'
     },
     job: {

@@ -1,4 +1,3 @@
-// controllers/admin/settings.controller.js
 const { FineSettings } = require('../../models');
 
 module.exports = {
@@ -10,7 +9,6 @@ module.exports = {
       });
 
       if (!settings) {
-        // Cria configurações padrão se não existirem
         const defaultSettings = await FineSettings.create({
           managerId: req.params.managerId
         });

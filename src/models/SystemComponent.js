@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4, validate } = require('uuid');
 
 module.exports = (sequelize) => {
   const SystemComponent = sequelize.define('SystemComponent', {
@@ -15,9 +15,12 @@ module.exports = (sequelize) => {
       comment: 'Nome do componente'
     },
     status: {
-      type: DataTypes.ENUM('operational', 'degraded', 'outage'),
+      type: DataTypes.STRING,
       defaultValue: 'operational',
       allowNull: false,
+      validate: {
+        isIn: [['operational', 'degraded', 'outage']]
+      },
       comment: 'Status atual do componente'
     },
     description: {

@@ -25,7 +25,7 @@ module.exports = (sequelize) => {
       comment: 'Descrição resumida do recurso'
     },
     details: {
-      type: DataTypes.JSON,
+      type: DataTypes.JSONB,
       allowNull: false,
       comment: 'Array de strings com detalhes do recurso'
     },
