@@ -24,7 +24,13 @@ const sequelize = new Sequelize(
     }
 );
 
-sequelize.authenticate();
+sequelize.authenticate()
+    .then(() => {
+    logger.info('Conexão com o Neon foi bem-sucedida!');
+  })
+  .catch((err) => {
+    logger.error('Erro ao conectar ao banco de dados:', err);
+  });
 
 module.exports = {
     Sequelize: Sequelize,
