@@ -23,11 +23,11 @@ app.use(bodyParser.urlencoded({ limit: '10mb', extended: true }));
 
 const startServer = async () => {
     try {
-        logger.info('Ambiente da API - Sincronizando banco de dados...');
-        await syncDatabase({
-            force: process.env.DB_FORCE_SYNC === 'true',
-            alter: process.env.DB_ALTER_SYNC === 'true'
-        });
+        // logger.info('Ambiente da API - Sincronizando banco de dados...');
+        // await syncDatabase({
+        //     force: process.env.DB_FORCE_SYNC === 'true',
+        //     alter: process.env.DB_ALTER_SYNC === 'true'
+        // });
 
         const apiRouter = require('./src/routes/index');
         app.use('/api', apiRouter);
