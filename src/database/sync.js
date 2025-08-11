@@ -1,28 +1,26 @@
-const db = require('../configs/db');
 const models = require('../models');
 const logger = require('../utils/logger');
 
 // Ordem correta de sincronização baseada nas dependências
 const syncOrder = [
-  // 'Manager',
-  // 'Tenant',
-  // 'Property',
-  // 'Payment',
-  // 'PaymentHistory',
-  // 'NotificationLog',
-  // 'Testimonial',
-  // 'FineSettings',
-  // 'BlogCategory',
-  // 'BlogPost',
-  // 'AboutContent',
-  // 'SystemFeature',
-  // 'SystemStatus',
-  // 'SystemIncident',
-  // 'SystemComponent',
-  // 'ContactInfo',
-  // 'ContactMessage',
-  // 'IncidentComponents',
-  'Payment'
+  'Manager',
+  'Tenant',
+  'Property',
+  'Payment',
+  'PaymentHistory',
+  'NotificationLog',
+  'Testimonial',
+  'FineSettings',
+  'BlogCategory',
+  'BlogPost',
+  'AboutContent',
+  'SystemFeature',
+  'SystemStatus',
+  'SystemIncident',
+  'SystemComponent',
+  'ContactInfo',
+  'ContactMessage',
+  'IncidentComponents',
 ];
 
 const syncDatabase = async (options = {}) => {
@@ -49,7 +47,7 @@ const syncDatabase = async (options = {}) => {
         logger.info(`✅ ${modelName} sincronizado com sucesso`);
       } catch (error) {
         logger.error(`❌ Falha ao sincronizar ${modelName}:`, error);
-        throw error; // Interrompe o processo se um modelo falhar
+        throw error;
       }
     }
 
